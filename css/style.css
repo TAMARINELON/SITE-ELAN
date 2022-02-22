@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Spline+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family:'Spline Sans', sans-serif ;
+}
+body{
+    background-color:rgb(128,128,128);
+   
+   
+    
+}
+img{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+header{
+    color: white;
+}
+p{
+    font-family: Roboto;
+    color: white;
+}
+ .header{
+    background-color:rgb(255,165,0);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    padding: 1.5em;
+}
+.orange{
+    display: flex;
+    align-items: center;
+}
+.orange .logo{
+    width: 50px;
+    height: auto;
+}
+strong{
+    font-size: larger;
+    font-weight: lighter;
+    padding: 20px;
+}
+.batiment{
+    height:400px;
+}
+ .batiment img{
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: left bottom;
+    filter: grayscale() ;
+}
+.batiment figcaption{
+    position: absolute;
+    text-align: center;
+    bottom: 60%;
+    left: 0%;
+    width: 100%;
+}
+ h1{
+    font-size:3em;
+    font-weight: normal;
+}
+.batiment figcaption h2{
+    font-size: 2em;
+    font-weight: lighter;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+@media screen and (max-width:500px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+
+a{
+    color:wheat;
+    text-decoration: none;   
+}
+
+.formations {
+    margin: 20px 40px;
+    padding: 15px;
+    border: 2px dashed yellow;
+    background-color: white;
+    /*display: flex;
+    justify-content: column;*/
+
+}
+.table1{
+    /*border: solid 2px black;
+    padding: 20px;
+   /*margin: 0px;*/
+    color:black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+
+thead{
+    /*align-content: center;*/
+    /*margin: 20px  10px  10px 20px;*/
+    padding: 0px;
+    background-color: black ;
+    color: blanchedalmond;
+}
+td{ 
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+.equipe div {
+    display:flex;
+}
+.equipe{
+    margin: 20px 40px;
+    padding: 15px;
+    border: 2px dashed yellow;
+    background-color: white;
+}
+.equipe figure{
+    margin: 1%;
+    width: 14%;
+    position: relative;
+   padding: 0px; 
+    border: yellow dashed 2px;
+    background-color: white;
+
+}
+@media screen and (max-width:500px){
+    .equipe figure{
+        width: 30%;
+    }
+    .equipe div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .equipe figure h3{
+        font-size: small;
+    }
+}
+
+.equipe figcaption{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: rgb(255,165,0);
+    color: white;
+}
+
+.contacter {
+    background-color: white;
+    border: yellow dashed 2px;
+    margin: 20px 40px;
+    padding: 15px;
+}
+.contacter label {
+    width: 100%;
+}
+.contacter textarea{
+    width: 100%;
+}
+.contacter input{
+    width: 100%;
+}
+button{
+    width:45%;
+    height: 35px;
+    background-color: rgb(255,165,0);
+}
+
+footer{
+    
+    background-color: rgb(81,81,81);
+    width: 100%;
+    text-align: center;
+
+}
+footer address{
+    font-style: normal;
+}
